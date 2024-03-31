@@ -1,0 +1,76 @@
+body{
+  background-image: url(../img/1011.png);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color:gold;
+    background-color:red;
+    text-align:center;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h3{
+    color:gold;
+    background-color:red;
+    text-align:center;
+    font-size:3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  li {
+    color:blue;
+    background-color:green;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  header{
+    background-color: goldenrod;
+    color:#44CFCB;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid greenyellow;
+  }
+  .navbar{
+    background-color: peru;
+    border: solid gold;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+  }
+  .navbar th{
+    border: solid salmon;
+    padding:5px;
+  }
+  footer{
+    background-color: coral;
+    color:aqua;
+    font-size: 12 px;
+    border: 3px solid rgb(102, 255, 0)
+    padding-left 5px;
+  }
+  .profile {
+    background-color:rgb(44, 0, 241);
+    text-align: center;
+  }
+  .dropdown{
+    display: inline-block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:cadetblue;
+    color:firebrick;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+  }
+  .active{
+    background-color: lightcoral;
+  }
